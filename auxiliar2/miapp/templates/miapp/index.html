@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo auxiliar 2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>¡Bienvenidos a TICS!</h1>
+
+	<div>
+		<table>
+			<tr>
+				<td>En este sitio puedes conocer al equipo docente:
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="{% url 'equipoDocente' %}">Ver equipo docente</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Como también tienes acceso al propósito del curso:
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="{% url 'libre' %}">Ver propósito del curso</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+</html>
